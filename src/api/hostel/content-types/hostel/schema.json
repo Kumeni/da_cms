@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hostels",
+  "info": {
+    "singularName": "hostel",
+    "pluralName": "hostels",
+    "displayName": "hostel"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "userId": {
+      "type": "integer",
+      "required": true
+    },
+    "deleted": {
+      "type": "boolean",
+      "default": false
+    },
+    "disabled": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

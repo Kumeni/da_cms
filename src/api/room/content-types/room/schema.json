@@ -1,0 +1,74 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rooms",
+  "info": {
+    "singularName": "room",
+    "pluralName": "rooms",
+    "displayName": "room",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "roomNo": {
+      "type": "string",
+      "required": true
+    },
+    "roomTypeId": {
+      "type": "integer",
+      "required": true
+    },
+    "requiredGenderId": {
+      "type": "integer",
+      "required": false,
+      "default": 3
+    },
+    "SARent": {
+      "type": "biginteger"
+    },
+    "SADeposit": {
+      "type": "biginteger"
+    },
+    "WRRent": {
+      "type": "biginteger"
+    },
+    "WRDeposit": {
+      "type": "biginteger"
+    },
+    "fromTenant": {
+      "type": "text"
+    },
+    "userId": {
+      "type": "integer",
+      "required": true
+    },
+    "buildingId": {
+      "type": "integer",
+      "required": true
+    },
+    "hostelId": {
+      "type": "integer",
+      "required": false
+    },
+    "deleted": {
+      "type": "boolean",
+      "default": false
+    },
+    "disabled": {
+      "type": "boolean",
+      "default": false
+    },
+    "water": {
+      "type": "boolean",
+      "default": true
+    },
+    "electricity": {
+      "type": "boolean"
+    },
+    "wifi": {
+      "type": "boolean"
+    }
+  }
+}

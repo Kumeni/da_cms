@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "referrals",
+  "info": {
+    "singularName": "referral",
+    "pluralName": "referrals",
+    "displayName": "referral"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "referrals": {
+      "type": "integer",
+      "required": true
+    },
+    "buildingId": {
+      "type": "integer"
+    },
+    "roomId": {
+      "type": "integer"
+    },
+    "hostelId": {
+      "type": "integer"
+    },
+    "mpesaPaymentId": {
+      "type": "integer"
+    },
+    "userId": {
+      "type": "integer"
+    }
+  }
+}

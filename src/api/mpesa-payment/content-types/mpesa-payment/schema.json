@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mpesa_payments",
+  "info": {
+    "singularName": "mpesa-payment",
+    "pluralName": "mpesa-payments",
+    "displayName": "mpesaPayment"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "MerchantRequestID": {
+      "type": "string"
+    },
+    "CheckoutRequestID": {
+      "type": "string"
+    },
+    "ResponseCode": {
+      "type": "integer"
+    },
+    "ResponseDescription": {
+      "type": "text"
+    },
+    "CustomerMessage": {
+      "type": "text"
+    },
+    "ResultCode": {
+      "type": "integer"
+    },
+    "ResultDescription": {
+      "type": "text"
+    },
+    "Amount": {
+      "type": "biginteger"
+    },
+    "MpesaReceiptNumber": {
+      "type": "string"
+    },
+    "TransactionDate": {
+      "type": "biginteger"
+    },
+    "PhoneNumber": {
+      "type": "biginteger"
+    },
+    "userId": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "required_genders",
+  "info": {
+    "singularName": "required-gender",
+    "pluralName": "required-genders",
+    "displayName": "requiredGender"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "gender": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
