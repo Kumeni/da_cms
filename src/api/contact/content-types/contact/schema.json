@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "contact",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "initial": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "whatsapp": {
+      "type": "boolean",
+      "default": true
+    },
+    "phoneNo": {
+      "type": "biginteger",
+      "required": true
+    },
+    "userId": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}
